@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: classic;
+    
+}
+
+@font-face {
+    font-family: classic;
+    src: url(../fonts/regular.ttf);
+} 
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/bold.ttf);
+} 
+
+body {	
+background-color: #d0e4e5;
+
+}
+
+
+
+@media only screen and (max-width : 768px) {
+
+    #formulario{
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        background-color: white;
+        border-radius: 7px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: 0px 10px 29px -7px rgba(0,0,0,0.5);
+    }
+    
+    #livro{
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+    
+    }
+    
+    #logo{
+        float: left;
+        width: 25%;
+        margin-left: 37.5%;
+        margin-right: 37.5%;
+    
+    }
+    
+    #textos{
+        width: 75%;
+        float: left;
+        margin-left: 12.5%;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        line-height: 25px;
+    }
+    
+    #titulo{
+        width: 75%;
+        float: left;
+        margin-left: 12.5%;
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: bold;
+        line-height: 40px;
+    }
+    
+    #titulo2 {
+        width: 75%;
+        float: left;
+        margin-left: 12.5%;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 10px;
+        font-family: bold;
+        line-height: 40px;
+    }
+    
+    #explic{
+        width: 75%;
+        float: left;
+        margin-left: 12.5%;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 6px;
+        margin-top: 6px;
+        line-height: 32px;
+    }
+    
+    .campos{
+        float: left;
+        box-sizing: border-box;
+        margin-left: 12.5%;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        width: 75%;
+        height: 45px;
+        font-size: 24px;
+        border: 1px solid rgb(184, 184, 184);
+        border-radius: 5px;
+    }
+    
+    .campos::placeholder{
+    
+        color: rgb(184, 184, 184);
+    
+    }
+    
+    .bot{
+        float: left;
+        background-color: #02c39a;
+        color: white;
+        margin-left: 12.5%;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        width: 75%;
+        height: 75px;
+        font-size: 32px;
+        border: 1px solid rgb(184, 184, 184);
+        border-radius: 5px;
+    }
+    
+    }
+
+@media only screen and (min-width : 769px) {
+
+#formulario{
+    float: left;
+    width: 28%;
+    margin-left: 8%;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    box-shadow: 0px 10px 29px -7px rgba(0,0,0,0.5);
+}
+
+#livro{
+    float: left;
+    width: 420px;
+    margin-left: 8%;
+    margin-top: 100px;
+
+}
+
+#logo{
+    float: left;
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+
+}
+
+#textos{
+    width: 75%;
+    float: left;
+    margin-left: 12.5%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#titulo{
+    width: 75%;
+    float: left;
+    margin-left: 12.5%;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: bold;
+    line-height: 40px;
+}
+
+#titulo2 {
+    width: 75%;
+    float: left;
+    margin-left: 12.5%;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-family: bold;
+    line-height: 42px;
+}
+
+#explic{
+    width: 75%;
+    float: left;
+    margin-left: 12.5%;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    line-height: 32px;
+}
+
+.campos{
+    float: left;
+    box-sizing: border-box;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 75%;
+    height: 45px;
+    font-size: 24px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+.campos::placeholder{
+
+    color: rgb(184, 184, 184);
+
+}
+
+.bot{
+    float: left;
+    background-color: #02c39a;
+    color: white;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 75%;
+    height: 75px;
+    font-size: 32px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+
+
+}
